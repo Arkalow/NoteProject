@@ -1,7 +1,8 @@
 jQuery(function($){
+    $main = $('main')
+    $loader = $('<div>Loading...</div>').appendTo($main)
     $.get('http://localhost/NoteProject/NoteProject/JSON.php')
         .done(function(data, textStatus, jqXHR){
-            $main = $('main')
             for(var i = 0; i < data.length; i++){
                 var $section = $('<div>')
                 $main.append($('<div>').addClass('divider'))
@@ -13,5 +14,8 @@ jQuery(function($){
         })
         .fail(function(jqXHR, textStatus){
             console.log('Erreur 404')
+        })
+        .always(function(){
+            $loader.remove()
         })
 })
