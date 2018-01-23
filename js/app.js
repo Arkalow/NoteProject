@@ -1,7 +1,8 @@
 jQuery(function($){
-    $main = $('main')
-    $loader = $('<div>Loading...</div>').appendTo($main)
-    $.get('http://localhost/NoteProject/NoteProject/JSON.php')
+    var $main = $('main')
+    var $loader = $('<div>Loading...</div>').appendTo($main)
+    
+    $.get('JSON.php')
         .done(function(data, textStatus, jqXHR){
             for(var i = 0; i < data.length; i++){
                 var $section = $('<div>')

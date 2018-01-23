@@ -37,13 +37,13 @@
               <div class="row">
     
                 <div class="col s4">
-                    <a><i class="material-icons large">add</i></a>
+                    <button><i class="material-icons large">add</i></button>
                 </div>
                 <div class="col s4">
-                    <a><i class="material-icons large">create</i></a>
+                    <button><i class="material-icons large">create</i></button>
                 </div>
                 <div class="col s4">
-                    <a><i class="material-icons large">remove</i></a>
+                    <button><i class="material-icons large">remove</i></button>
                 </div>
         </div>
   
