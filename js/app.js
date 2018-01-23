@@ -18,18 +18,17 @@ jQuery(function($){
                     let $note = $(this)
                     $note.toggleClass('red-text text-darken-2')
 
-                    let $bt_remove = $('<button>').addClass('btn waves-effect waves-light')
-                    $bt_remove.text('delete')
+                    let $buttons = $('<div>')
+                    let $bt_remove = $('<button>').addClass('btn waves-effect waves-light').text('delete')
+                    let $bt_edit = $('<button>').addClass('btn waves-effect waves-light').text('edit')
+                    $buttons.append($bt_remove)
+                    $buttons.append($bt_edit)
 
                     if($selected !== null){
                         $selected.toggleClass('red-text text-darken-2')
-                        
+                        $selected.children('div').remove()
                     }
-                    $note.append($bt_remove)
-
-
-                    console.log($bt_remove)
-
+                    $note.append($buttons)
 
                     $selected = $note
                 })

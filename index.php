@@ -23,7 +23,7 @@
     <div class="row">
 
         <div class="col s3">
-            <h3>Left</h3>
+            
         </div>
   
         <div class="col s9">
