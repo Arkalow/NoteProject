@@ -30,15 +30,22 @@
             <div class="row">
                 <div class="col s12">
                     <main>
+                    
+                    <!-- Form -->
+                    <div class="devider"></div>
+                    <div class="section">
+                        <input type="text" placeholder="Title">
+                        <textarea class="materialize-textarea" cols="30" rows="10" placeholder="Content"></textarea>
+                    </div>
+                    <button class="btn waves-effect waves-light">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
                     </main>
                 </div>
               </div>
     
               <div class="row">
-    
-                <div class="col s4">
-                    <button><i class="material-icons large">add</i></button>
-                </div>
+
                 <div class="col s4">
                     <button><i class="material-icons large">create</i></button>
                 </div>
@@ -48,8 +55,6 @@
         </div>
   
       </div>
-
-
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/app.js"></script>
