@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col s12">
                     <main>
-                    
+                    <div id="loader">Chargement</div>
                     <!-- Form -->
                     <div class="devider"></div>
                     <div class="section">
@@ -42,19 +42,8 @@
                     </button>
                     </main>
                 </div>
-              </div>
-    
-              <div class="row">
-
-                <div class="col s4">
-                    <button><i class="material-icons large">create</i></button>
-                </div>
-                <div class="col s4">
-                    <button><i class="material-icons large">remove</i></button>
-                </div>
+            </div>
         </div>
-  
-      </div>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/app.js"></script>
