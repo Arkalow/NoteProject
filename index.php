@@ -8,28 +8,25 @@
 </head>
 <body>
 
+    <!-- Nav Bar -->
+
     <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">NoteProject</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Menu 1</a></li>
-            <li><a href="#">Menu 3</a></li>
-            <li><a href="#">Menu 4</a></li>
-          </ul>
+            <a href="#" class="brand-logo">NoteProject</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
-    <!-- Page Layout here -->
-    <div class="row">
-
-        <div class="col s3">
-            
-        </div>
+    <!-- Page Layout -->
   
-        <div class="col s9">
-            <div class="row">
-                <div class="col s12">
-                    <main>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <main>
                     <div id="loader">Chargement</div>
                     <!-- Form -->
                     <div class="devider"></div>
@@ -40,8 +37,7 @@
                     <button class="btn waves-effect waves-light">Submit
                         <i class="material-icons right">send</i>
                     </button>
-                    </main>
-                </div>
+                </main>
             </div>
         </div>
     </div>
